@@ -42,7 +42,7 @@ You can get a sample dataset like this from the [UCI SMS Spam Collection](https:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/spam-email-classifier.git
+git clone [https://github.com/krisjscott/spam-mail-detection]
 cd spam-email-classifier
 ```
 
