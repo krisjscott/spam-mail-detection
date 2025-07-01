@@ -10,8 +10,8 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 df=pd.read_csv('mail_data.csv')
 
 data=df.where(pd.notnull(df), '')
-data.loc[data['Category'] == 'spam', 'Category'] = 0
-data.loc[data['Category'] == 'ham', 'Category'] = 1
+data.loc[data['Category'] == 'spam', 'Category'] = 1
+data.loc[data['Category'] == 'ham', 'Category'] = 0
 X = data['Message']
 y = data['Category']
 
@@ -42,7 +42,7 @@ predictions_on_your_mail = model.predict(input_your_mail_features)
 print (predictions_on_your_mail)
 
 for mail, prediction in zip(input_your_mail, predictions_on_your_mail):
-    if prediction == 1:
+    if prediction == 0:
         print(f"'{mail}' → Your mail is **not spam**")
     else:
         print(f"'{mail}' → Your mail is **spam**")
