@@ -74,7 +74,8 @@ python spam_classifier.py
 Accuracy on training data:  0.98  
 Accuracy on test data:  0.96  
 [0 1]  
-Your mail is not spam  
+Your mail is not spam
+Your mail is spam
 ```
 
 ---
