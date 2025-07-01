@@ -1,3 +1,5 @@
+Sure! Here's the cleaned-up and corrected version of your `README.md` file for the **Spam Email Classifier** project:
+
 ---
 
 # 📧 Spam Email Classifier using Logistic Regression
@@ -33,7 +35,7 @@ This project uses a CSV file named `mail_data.csv` with the following columns:
 | spam     | "You've won \$1000..."            |
 | ham      | "Hi there, are we meeting today?" |
 
-You can get a sample dataset like this from the [UCI SMS Spam Collection](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) or prepare your own.
+You can use a sample dataset like this from the [UCI SMS Spam Collection](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) or prepare your own.
 
 ---
 
@@ -42,8 +44,8 @@ You can get a sample dataset like this from the [UCI SMS Spam Collection](https:
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/krisjscott/spam-mail-detection]
-cd spam-email-classifier
+git clone https://github.com/krisjscott/spam-mail-detection.git
+cd spam-mail-detection
 ```
 
 ### 2. Install Required Packages
@@ -65,9 +67,18 @@ python spam_classifier.py
 ---
 
 ## 📊 Sample Output
-![Screenshot 2025-07-01 142512](https://github.com/user-attachments/assets/87729c75-c90c-465a-b62e-650ae42c78bf)
+
+![Screenshot](https://github.com/user-attachments/assets/87729c75-c90c-465a-b62e-650ae42c78bf)
+
 ```
+Accuracy on training data:  0.98  
+Accuracy on test data:  0.96  
+[0 1]  
+Your mail is not spam  
 ```
+
+---
+
 ## 📬 Try Custom Emails
 
 The script includes an example:
@@ -91,3 +102,8 @@ It then predicts whether each message is spam or not using the trained model.
 
 ---
 
+Let me know if you want:
+
+* A `requirements.txt` file
+* Badges (e.g., Python version, license, accuracy)
+* GitHub Actions CI setup
