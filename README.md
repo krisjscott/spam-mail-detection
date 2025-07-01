@@ -68,7 +68,7 @@ python spam_classifier.py
 ![Screenshot 2025-07-01 142512](https://github.com/user-attachments/assets/87729c75-c90c-465a-b62e-650ae42c78bf)
 ```
 ---
-
+```
 ## 📬 Try Custom Emails
 
 The script includes an example:
