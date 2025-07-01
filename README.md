@@ -1,5 +1,3 @@
-Thanks for sharing the code! Based on your script, here's a complete and tailored **README.md** file you can use for your GitHub repository:
-
 ---
 
 # 📧 Spam Email Classifier using Logistic Regression
