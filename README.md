@@ -1,5 +1,3 @@
-Sure! Here's the cleaned-up and corrected version of your `README.md` file for the **Spam Email Classifier** project:
-
 ---
 
 # 📧 Spam Email Classifier using Logistic Regression
